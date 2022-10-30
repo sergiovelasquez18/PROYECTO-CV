@@ -1,0 +1,33 @@
+body {
+	background-color: #F5F7FA;
+	font-family: 'Montserrat', 'Arial';
+}
+
+li {
+	line-height: 24px;
+}
+
+.contenedor-principal {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: white;
+	width: 1200px;
+	margin: 40px auto;
+}
+
+.primer-elemento-lista {
+	background-color: yellow;
+}
+
+.descripcion-profesion{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.descripcion {
+	margin-bottom: 40px;
+}
+
+.informacion-lateral {
+	background-color: #06a57d;
+}

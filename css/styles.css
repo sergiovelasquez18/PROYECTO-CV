@@ -7,6 +7,7 @@ li {
 	line-height: 24px;
 }
 
+/* contenido principal */
 .contenedor-principal {
 	display: flex;
 	flex-direction: row-reverse;
@@ -19,6 +20,7 @@ li {
 	background-color: yellow;
 }
 
+/* informacion general */
 .descripcion-profesion{
 	font-size: 14px;
 	font-weight: 700;
@@ -28,6 +30,87 @@ li {
 	margin-bottom: 40px;
 }
 
+/* informacion lateral */
+
 .informacion-lateral {
-	background-color: #06a57d;
+	background-color: #147c62;
+	padding: 40px 0;
+}
+
+.titulo-lateral {
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	margin-top: 50px;
+}
+
+.contactos, .habilidades-tecnicas, .titulo-lateral-secundario {
+	margin-left: 40px;
+}
+
+/* seccion contactos */
+
+.tipo-contacto{
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	margin-right: 5px;
+}
+
+.contacto-info{
+	color: rgb(177, 177, 177);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* seccion de lista */
+
+.lista-lateral{
+	padding-left: 17px;
+}
+
+.lista-lateral > li{
+	color: #FB6D3A;
+}
+
+.elemento-lista-lateral{
+	color: white;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* soft skill */
+
+.titulo-lateral-secundario{
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+/* seccion de lista secundaria*/
+
+.lista-lateral-secundario{
+	padding-left: 57px;
+}
+
+.lista-lateral-secundario >li{
+	color: #FB6D3A;
+}
+
+.elemento-lista-lateral-secundaria{
+	color: white;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
 }
